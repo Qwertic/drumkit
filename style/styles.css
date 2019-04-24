@@ -6,6 +6,7 @@ body{
   align-items: center;
   background-image: linear-gradient( 284deg,  rgba(255,204,0,1) 53.7%, rgba(253,168,10,1) 88.9% );
   justify-content: space-between;
+  font-family: 'Bungee Shade', cursive;
 }
 .keys{
 
@@ -21,16 +22,27 @@ body{
  align-items: start;
  align-self: baseline;
  width: 90px;
+ transition: all 0.07s;
+ border: 2px solid #000;
 }
 kbd{
   height: 90px;
+
 }
 .sound{
   text-align: center;
+  margin: 10px auto;
+  padding: 35px 40px;
 }
 .sound-b{
   width: 100%;
-  margin: 10px auto;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.playing{
+  transform: scale(1.1);
+  border-color: #fff;
+  box-shadow: 0 0 10px #fff;
 }
 /*pulse*/
 .rip{
