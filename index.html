@@ -4,18 +4,82 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Js Drumkit</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style/styles.css">
-  <link rel="stylesheet" href="script/scripts.js">
+  <link rel="script" href="script/scripts.js">
 </head>
-<body>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
-  <div class="keys"></div>
+<body class="row">
+  <div class="rip"><div></div><div></div></div>
+  <div class="keys row col-12">
+    <div data-key="65" class="key  row">
+      <kbd class="sound-b">A</kbd>
+      <span class="sound sound-b">
+        0
+      </span>
+    </div>
+    <div data-key="83" class="key  row">
+      <kbd class="sound-b">S</kbd>
+      <span class="sound sound-b">
+        1
+      </span>
+    </div>
+    <div data-key="68" class="key  row">
+      <kbd class="sound-b">D</kbd>
+      <span class="sound sound-b">
+        2
+      </span>
+    </div>
+    <div data-key="70" class="key  row">
+      <kbd class="sound-b">F</kbd>
+      <span class="sound sound-b">
+        3
+      </span>
+    </div>
+    <div data-key="71" class="key  row">
+      <kbd class="sound-b">G</kbd>
+      <span class="sound sound-b">
+        4
+      </span>
+    </div>
+    <div data-key="72" class="key  row">
+      <kbd class="sound-b">H</kbd>
+      <span class="sound sound-b">
+        5
+      </span>
+    </div>
+    <div data-key="74" class="key  row">
+      <kbd class="sound-b">J</kbd>
+      <span class="sound sound-b">
+        6
+      </span>
+    </div>
+    <div data-key="75" class="key  row">
+      <kbd class="sound-b">K</kbd>
+      <span class="sound sound-b">
+        7
+      </span>
+    </div>
+    <div data-key="76" class="key  row">
+      <kbd class="sound-b">L</kbd>
+      <span class="sound sound-b">
+        8
+      </span>
+    </div>
+  </div>
+
+  <!-- sounds -->
+  <audio data-key="65" src="http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Funny%20Fx%20Loop-831-Free-Loops.com.mp3"></audio>
+  <audio data-key="83" src="http://s1download-universal-soundbank.com/mp3/sounds/20232.mp3"></audio>
+  <audio data-key="68" src="http://dight310.byu.edu/media/audio/FreeLoops.com/4/4/Hard%20Metallic%20Perc-19794-Free-Loops.com.mp3"></audio>
+  <audio data-key="70" src="http://dight310.byu.edu/media/audio/FreeLoops.com/2/2/Bubbling%20Beat.wav-18870-Free-Loops.com.mp3"></audio>
+  <audio data-key="71" src="http://dight310.byu.edu/media/audio/FreeLoops.com/5/5/Old%20School%20HipHop-7062-Free-Loops.com.mp3"></audio>
+  <audio data-key="72" src="http://dight310.byu.edu/media/audio/FreeLoops.com/4/4/Hard%20Rock%20Drums.wav-20079-Free-Loops.com.mp3"></audio>
+  <audio data-key="74" src="http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Glitch%20Beat.wav-19425-Free-Loops.com.mp3"></audio>
+  <audio data-key="75" src="http://dight310.byu.edu/media/audio/FreeLoops.com/5/5/Moog%20Synth%2008-4341-Free-Loops.com.mp3"></audio>
+  <audio data-key="76" src="http://dight310.byu.edu/media/audio/FreeLoops.com/2/2/Delay%20Echo%20Sound%20Fx-12465-Free-Loops.com.mp3"></audio>
+
+  <!-- script -->
+ <script type="text/javascript" src="script/scripts.js"></script>
 </body>
+
 </html>
