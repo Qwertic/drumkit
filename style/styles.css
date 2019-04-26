@@ -22,12 +22,15 @@ body{
  align-items: start;
  align-self: baseline;
  width: 90px;
- transition: all 0.07s;
- border: 2px solid #000;
+
 }
 kbd{
   height: 90px;
-
+  border: 2px solid #000;
+  transition: all 0.07s;
+}
+i{
+  transition: all 0.07s;
 }
 .sound{
   text-align: center;
@@ -43,6 +46,11 @@ kbd{
   transform: scale(1.1);
   border-color: #fff;
   box-shadow: 0 0 10px #fff;
+}
+.playing_i{
+ transform: scale(1.4);
+  border-color: #fff;
+  text-shadow: 0 0 10px yellow;
 }
 /*pulse*/
 .rip{
